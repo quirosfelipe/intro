@@ -8,7 +8,7 @@
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 5px;
   }
 
   .options {
@@ -18,6 +18,9 @@
     align-items: center;
     justify-content: flex-end;
 
+    .cart-icon {
+      height: 40px;
+    }
     .option {
       cursor: pointer;
       padding: 10px 15px;
