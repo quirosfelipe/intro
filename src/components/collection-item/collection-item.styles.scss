@@ -14,21 +14,22 @@
     margin-bottom: 5px;
   }
   .custom-button {
-    width: 100%;
+    width: 40%;
     opacity: 0.7;
+    border-radius: 6px;
     position: absolute;
     top: 275px;
     display: none;
+    // background-color: #ff7c6e;
   }
 
   &:hover {
     .image {
-      opacity: 0.4;
+      opacity: 0.6;
     }
     .custom-button {
       display: flex;
       opacity: 0.85;
-      color: lightblue;
     }
   }
 
@@ -40,13 +41,15 @@
     font-size: 18px;
 
     .name {
-      width: 90%;
+      padding-left: 6%;
+      width: 80%;
       margin-bottom: 15px;
     }
 
     .price {
+      padding-right: 15%;
       width: 10%;
-      color: orange;
+      color: #ff7c6e;
     }
   }
 }
