@@ -5,9 +5,39 @@
   align-items: center;
   padding: 20px 80px;
 }
+.created-by {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
 
-.homepage-image {
-  width: 100%;
-  // height: 90vh;
-  padding: 20px 85px;
+  .created-by__name {
+    display: flex;
+    width: 280px;
+    align-content: center;
+    justify-content: space-evenly;
+
+    .created-by__name-name {
+      margin-left: 20px;
+      color: #24a2ae;
+    }
+    .created-by__link {
+      align-self: center;
+
+      .created-by__image {
+        width: 30px;
+        height: 30px;
+        &:hover {
+          filter: invert(51%) sepia(46%) saturate(624%) hue-rotate(137deg)
+            brightness(95%) contrast(97%);
+        }
+      }
+    }
+  }
+
+  .created-by__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
 }

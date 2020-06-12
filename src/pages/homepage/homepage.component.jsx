@@ -1,5 +1,6 @@
 import React from "react";
 // import studio from "../../assets/studio.jpg";
+import github from "../../assets/github.png";
 import Directory from "../../components/directory/directory.component";
 
 import "./homepage.styles.scss";
@@ -19,6 +20,20 @@ const HomePage = () => (
     </div>
     <div className="homepage">
       <Directory />
+    </div>
+    <div className="created-by">
+      <div className="created-by__name">
+        <p> Created By </p>
+        <p className="created-by__name-name">Felipe Quiros</p>
+        <div className=" created-by__link">
+          <a href="https://github.com/quirosfelipe">
+            <img class="created-by__image" src={github} alt="github link" />{" "}
+          </a>
+        </div>
+      </div>
+      <div className="created-by__copyright">
+        <p>Copyright© Intro | Music Stores, Inc. All rights Reserved</p>
+      </div>
     </div>
   </div>
 );

@@ -104,27 +104,31 @@ const SHOP_DATA = {
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-        price: 160,
+        name: "Fodera Yin Yang Series I Ivory Top Clear Satin",
+        imageUrl:
+          "https://media.musiciansfriend.com/is/image/MMGS7/Yin-Yang-Standard-Series-I-Ivory-Top-Electric-Bass-Clear-Satin-Finish/L69293000001000-00-1600x1600.jpg",
+        price: 5250,
       },
       {
         id: 15,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-        price: 160,
+        name: "Strandberg Boden Bass Prog 4 Brown",
+        imageUrl:
+          "https://media.musiciansfriend.com/is/image/MMGS7/Boden-Bass-Prog-4-Brown/L57376000001000-00-1600x1600.jpg",
+        price: 2995,
       },
       {
         id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-        price: 190,
+        name: "Dean USA John Entwistle Hybrid Bass Transbrazilia",
+        imageUrl:
+          "http://media.musiciansfriend.com/is/image/MMGS7/Special-Edition-Deluxe-PJ-Bass-3-Tone-Sunburst-Maple/H96715000003006-00-500x500.jpg",
+        price: 2999,
       },
       {
         id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        price: 200,
+        name: "Fender Special Edition Deluxe PJ Bass",
+        imageUrl:
+          "http://media.guitarcenter.com/is/image/MMGS7/Special-Edition-Deluxe-PJ-Bass-Olympic-White/H96715000004000-00-500x500.jpg",
+        price: 899,
       },
     ],
   },
@@ -149,10 +153,10 @@ const SHOP_DATA = {
       },
       {
         id: 20,
-        name: "Korg KRONOS LS 88-Key Synthesizer",
+        name: "Roland FANTOM-7 Music Workstation Keyboard",
         imageUrl:
-          "https://www.pmtonline.co.uk/media/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/4/3/43285-kronos-88ls_top.jpg",
-        price: 3699,
+          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EcHQUnhZizvtZg74RMzPVgHaHa%26pid%3DApi&f=1",
+        price: 3599,
       },
       {
         id: 21,
@@ -163,9 +167,10 @@ const SHOP_DATA = {
       },
       {
         id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185,
+        name: "Moog One Polyphonic Analog Synthesizer  16 Voice",
+        imageUrl:
+          "https://media.musiciansfriend.com/is/image/MMGS7/One-Polyphonic-Analog-Synthesizer-16-Voice/L43990000000002-00-1600x1600.jpg",
+        price: 8499,
       },
     ],
   },
@@ -203,21 +208,24 @@ const SHOP_DATA = {
       },
       {
         id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        price: 45,
+        name: "Avid S4 16 Control Surface",
+        imageUrl:
+          "https://media.guitarcenter.com/is/image/MMGS7/S4-16-Control-Surface/L70774000000000-00-500x500.jpg",
+        price: 39995,
       },
       {
         id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        price: 135,
+        name: "Antelope Audio Goliath HD Audio Interface",
+        imageUrl:
+          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.r-U25qZ1MRFq1gj3NVJbeAD6D6%26pid%3DApi&f=1",
+        price: 6995,
       },
       {
         id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-        price: 20,
+        name: "Allen & Heath SQ-7 48-Channel Digital Mixer",
+        imageUrl:
+          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7pxM8cbHlgJEkoTHb7YCEAHaHa%26pid%3DApi&f=1",
+        price: 4999,
       },
     ],
   },
@@ -230,41 +238,43 @@ const SHOP_DATA = {
         id: 30,
         name: "Neumann U67 Tube Condenser Mic Reissue ",
         imageUrl:
-          "https://www.kmraudio.com/pub/media/catalog/product/cache/fe0021b38343ea882ec5d381a7a2a2ef/n/e/neumann-u67reissue-kmr.jpg",
+          "https://sc1.musik-produktiv.com/pic-010014428xl/neumann-u87-ai-studio-set.jpg",
         price: 6995,
       },
       {
         id: 31,
-        name: "Royer R-122 MKIIL-MP Live Matched Pair",
+        name: "Royer R-121 Ribbon Microphone & dBooster Combo",
         imageUrl:
-          "https://media.music123.com/is/image/MMGS7/R-122-MKIIL-MP-Live-Matched-Pair/J24714000000000-00-750x750.jpg",
-        price: 3665,
+          "https://media.guitarcenter.com/is/image/MMGS7/R-121-Ribbon-Microphone-and-RSM-SS1-Sling-Shock-Shockmount-R-121-with-RSM-SS1-Sling-Shock/J00172000001000-00-1200x1200.jpg",
+        price: 1474,
       },
       {
         id: 32,
         name: "SE Electronics RNT Tube Microphone",
         imageUrl:
-          "https://smhttp-ssl-50970.nexcesscdn.net/media/catalog/product/cache/1/image/1500x/9df78eab33525d08d6e5fb8d27136e95/s/e/se-electronics-rupert-neve-designs-rnt_97356_4a.jpg",
+          "https://www.musicmatter.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/e/se_electronics_rnt_main.jpg",
         price: 2499,
       },
       {
         id: 33,
         name: "Blue Bottle Mic Locker Nickel",
         imageUrl:
-          "https://media.musiciansfriend.com/is/image/MMGS7/BRS1-Bottle-Rocket-Mic-Locker/J24868000000000-00-1600x1600.jpg",
+          "http://media.guitarcenter.com/is/image/MMGS7/Bottle-Mic-Locker-Nickel/J42747000001000-00-500x500.jpg",
         price: 5999,
       },
       {
         id: 34,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40,
+        name: "Soyuz Microphones 017 TUBE Large Diaphragm",
+        imageUrl:
+          "https://images.equipboard.com/uploads/item/image/36357/soyuz-su-017-large-diaphragm-tube-condenser-microphone-xl.jpg?v=1586365658",
+        price: 3999,
       },
       {
         id: 35,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25,
+        name: "Lewitt LCT 940 Tube/FET Condenser Microphone",
+        imageUrl:
+          "https://images.reverb.com/image/upload/s--rncMt9as--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1525863906/vjmzfq5hjeikzfybf8cj.jpg",
+        price: 1699,
       },
     ],
   },

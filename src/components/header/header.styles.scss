@@ -33,11 +33,16 @@
     justify-content: flex-end;
 
     .cart-icon {
-      height: 40px;
+      color: #ff7c6e;
+      height: 34px;
     }
     .option {
       cursor: pointer;
       padding: 10px 15px;
+
+      &:hover {
+        color: #24a2ae;
+      }
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
+import audio_wave from "../../assets/audio_wave.png";
 
 const StripeCheckoutButton = ({ price }) => {
   // to convert to cents
@@ -18,12 +19,13 @@ const StripeCheckoutButton = ({ price }) => {
       name="Intro | Music Stores LLC."
       billingAddress
       shippingAddress
-      image="https://svgshare.com/i/CUz.svg"
+      image={audio_wave}
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
       token={onToken}
       stripeKey={publishableKey}
+      // bitcoin="true"
     />
   );
 };
