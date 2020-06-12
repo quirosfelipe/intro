@@ -6,17 +6,17 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: "Taylor 414ce V-Class SE Grand Auditorium",
+        name: "Fender Custom Shop '60s Relic Stratocaster",
         imageUrl:
-          "https://media.guitarcenter.com/is/image/MMGS7/414ce-V-Class-Special-Edition-Grand-Auditorium-Acoustic-Electric-Guitar-Shaded-Edge-Burst/L26331000001000-00-500x500.jpg",
-        price: 2599,
+          "https://media.musiciansfriend.com/is/image/MMGS7/Masterbuilt-Dennis-Galuszka-60s-Relic-Stratocaster-Brazilian-Rosewood-Neck-Electric-Guitar-Sea-Foam-Green-over-Aztec-Gold/L46988000007000-00-1600x1600.jpg",
+        price: 7640,
       },
       {
         id: 2,
-        name: "Gibson Les Paul Standard '60s",
+        name: "Gibson Historic '58 Les Paul Washed Cherry Sunburst",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/0916/0836/products/52180_Gibson_Les_Paul_standard_LP__60_2007_035370442_1_720x720.jpg?v=1585000873",
-        price: 2499,
+          "https://media.musiciansfriend.com/is/image/MMGS7/Historic-58-Les-Paul-Standard-VOS-Electric-Guitar-Vintage-Cherry-Sunburst/L20744000003000-00-500x500.jpg",
+        price: 4999,
       },
       {
         id: 3,
@@ -34,33 +34,38 @@ const SHOP_DATA = {
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18,
+        name: "Gretsch Custom Shop G6136T-CSTRR Magpie ",
+        imageUrl:
+          "https://media.musiciansfriend.com/is/image/MMGS7/Custom-Shop-G6136T-CSTRR-Rich-Robinson-Magpie-Electric-Guitar-with-Bigsby-Ravens-Breast-Blue-Relic/L71457000001000-00-500x500.jpg",
+        price: 8749,
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14,
+        name: "Fender Custom Shop '63 Heavy Relic Telecaster",
+        imageUrl:
+          "https://media.musiciansfriend.com/is/image/MMGS7/1963-Heavy-Relic-Telecaster-Custom-Built-Electric-Guitar-Super-Faded-Aged-3-Color-Sunburst-Sparkle/L18759000001000-00-500x500.jpg",
+        price: 4150,
       },
       {
         id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-        price: 18,
+        name: "Guild F-55 Maple Jumbo Acoustic Guitar  Antique Burst",
+        imageUrl:
+          "https://media.musiciansfriend.com/is/image/MMGS7/F-55E-Maple-Jumbo-Acoustic-Electric-Guitar-Antique-Burst/L48724000002000-00-500x500.jpg",
+        price: 3699,
       },
       {
         id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14,
+        name: "Fender American Stratocaster Maple Sienna Sunburst",
+        imageUrl:
+          "http://media.musiciansfriend.com/is/image/MMGS7/American-Professional-Stratocaster-Maple-Fingerboard-Sienna-Sunburst/J46217000004000-00-500x500.jpg",
+        price: 1549,
       },
       {
         id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16,
+        name: "Fender American Ultra Stratocaster Maple Fingerboard",
+        imageUrl:
+          "https://media.guitarcenter.com/is/image/MMGS7/American-Ultra-Stratocaster-Maple-Fingerboard-Electric-Guitar-Aged-Natural/L69991000003000-00-500x500.jpg",
+        price: 1999,
       },
     ],
   },

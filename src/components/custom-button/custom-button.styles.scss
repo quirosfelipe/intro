@@ -9,7 +9,7 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: "Ubuntu";
   font-weight: bolder;
   border: none;
   cursor: pointer;
@@ -22,12 +22,18 @@
     border: 1px solid black;
   }
 
+  &.isCheckOut {
+    background-color: #ffeeec;
+    color: black;
+  }
+
   &.google-sign-in {
-    background-color: #4285f4;
-    color: white;
+    background-color: #ffeeec;
+    color: #ff7c6e;
 
     &:hover {
-      background-color: #357ae8;
+      background-color: #ff7c6e;
+      color: #ffeeec;
       border: none;
     }
   }

@@ -21,12 +21,13 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
       )}
     </div>
     <CustomButton
+      isGoogleSignIn
       onClick={() => {
         history.push("/checkout");
         dispatch(toggleCartHidden());
       }}
     >
-      GO TO CHECKOUT
+      CHECKOUT
     </CustomButton>
   </div>
 );

@@ -5,12 +5,26 @@
   justify-content: space-between;
   margin-bottom: 25px;
 
+  .header-intro__name {
+    color: #ff7c6e;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .header-intro__name-option {
+    color: #24a2ae;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .logo-container {
     height: 100%;
     width: 70px;
     padding: 5px;
   }
-
+  .header-intro {
+    display: flex;
+    align-items: center;
+  }
   .options {
     width: 50%;
     height: 100%;
