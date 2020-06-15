@@ -32,6 +32,7 @@ Visit the live site [here](https://intro-music-store.herokuapp.com/)
 [![sign.png](https://i.postimg.cc/FsF4y79W/sign.png)](https://postimg.cc/BtzksZPH)
 
 > Clean and minimalist layout
+>
 > Show/hide shopping-cart
 
 [![flow1.png](https://i.postimg.cc/QNkqdfwR/flow1.png)](https://postimg.cc/HjnMS9p2)
