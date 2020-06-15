@@ -1,65 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Intro | Music Store
 
-## Available Scripts
+Intro recreates the concept of an online music store from a minimalist point of view. This lite online shop put together the main components of an e-commerce and give them life through a user-friendly interaction that allows for authentication, full shopping expirience and real checkout integration through the Stripe API.
 
-In the project directory, you can run:
+Visit the live site [here](https://intro-music-store.herokuapp.com/)
 
-### `npm start`
+# Key Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Users can sign up or use a demo account.
+- Users can log-in with the use of a google account credentials.
+- Users can add items to the shopping cart from each item category page and also, the top-selling page.
+- Users can change the quantity of the items to be purchased in the shopping cart.
+- Users can delete items from the shopping cart.
+- Users can review the order in the checkout page before authorizing the payment.
+- Users can make a payment using any Visa, Mastercard, Amex, Union Pay or Discover card.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Technology Used
 
-### `npm test`
+- React
+- Redux
+- Stripe API
+- SASS
+- Firebase
+- Firestore
+- OAuth2
+- JavaScript, HTML , CSS
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Screenshots
 
-### `npm run build`
+> Google or email sign-in
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![sign.png](https://i.postimg.cc/FsF4y79W/sign.png)](https://postimg.cc/BtzksZPH)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+> Clean and minimalist layout
+> Show/hide shopping-cart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![flow1.png](https://i.postimg.cc/QNkqdfwR/flow1.png)](https://postimg.cc/HjnMS9p2)
 
-### `npm run eject`
+> Easy checkout through the Stripe API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[![checkout.png](https://i.postimg.cc/D0rw8DPS/checkout.png)](https://postimg.cc/CnKg2ct0)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Firebase
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Intro uses Firebase as the backend to run the server and the Cloud Firestore needed for the authentication process and the user info storage. The real-time syncing nature of Firebase through the use of Websockets allows for a faster continiously updated connection.
+The authentication support for Google is integrated with the OAuth2 industry-standard protocol.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The next code snippet checks for an existing user in the database otherwise it creates a new one in the Firebase Firestore.
 
-## Learn More
+[![code-snippet.png](https://i.postimg.cc/J0xV6Pvg/code-snippet.png)](https://postimg.cc/hQX5hbSb)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Planned Feature Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# intro
+- Metronome integration as a user gadget
