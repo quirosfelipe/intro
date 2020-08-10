@@ -24,15 +24,21 @@ const HomePage = () => (
     <div className="created-by">
       <div className="created-by__name">
         <p> Created By </p>
-        <p className="created-by__name-name">Felipe Quiros</p>
+        <a
+          href="https://quirosfelipe.github.io/"
+          target="framename"
+          className="created-by__name-name"
+        >
+          Felipe Quiros
+        </a>
         <div className=" created-by__link">
-          <a href="https://github.com/quirosfelipe">
+          <a href="https://github.com/quirosfelipe" target="framename">
             <img class="created-by__image" src={github} alt="github link" />{" "}
           </a>
         </div>
       </div>
       <div className="created-by__copyright">
-        <p>Copyright© Intro | Music Stores, Inc. All rights Reserved</p>
+        <p>Copyright© Intro | Music Stores, Inc. All rights Reserved. 2020</p>
       </div>
     </div>
   </div>

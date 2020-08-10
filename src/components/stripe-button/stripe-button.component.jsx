@@ -11,12 +11,13 @@ const StripeCheckoutButton = ({ price }) => {
   const onToken = (token) => {
     console.log(token);
     alert("Payment Succesful!");
+    window.location = "/";
   };
 
   return (
     <StripeCheckout
       label="Complete your order"
-      name="Intro | Music Stores LLC."
+      name="Intro | Music Stores, Inc."
       billingAddress
       shippingAddress
       image={audio_wave}

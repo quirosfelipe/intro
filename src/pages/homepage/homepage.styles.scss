@@ -17,8 +17,14 @@
     justify-content: space-evenly;
 
     .created-by__name-name {
+      align-self: center;
       margin-left: 20px;
-      color: #24a2ae;
+      color: black;
+      &:hover {
+        filter: invert(51%) sepia(46%) saturate(624%) hue-rotate(137deg)
+          brightness(95%) contrast(97%);
+        cursor: pointer;
+      }
     }
     .created-by__link {
       align-self: center;
