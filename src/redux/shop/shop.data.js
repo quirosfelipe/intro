@@ -57,7 +57,7 @@ const SHOP_DATA = {
         id: 8,
         name: "Fender American Stratocaster Maple Sienna Sunburst",
         imageUrl:
-          "http://media.musiciansfriend.com/is/image/MMGS7/American-Professional-Stratocaster-Maple-Fingerboard-Sienna-Sunburst/J46217000004000-00-500x500.jpg",
+          "https://media.guitarcenter.com/is/image/MMGS7/American-Standard-Stratocaster-Electric-Guitar-with-Maple-Fingerboard-Sienna-Sunburst-Maple-Fingerboard/H80805000002001-00-500x500.jpg",
         price: 1549,
       },
       {
@@ -120,15 +120,15 @@ const SHOP_DATA = {
         id: 16,
         name: "Dean USA John Entwistle Hybrid Bass Transbrazilia",
         imageUrl:
-          "http://media.musiciansfriend.com/is/image/MMGS7/Special-Edition-Deluxe-PJ-Bass-3-Tone-Sunburst-Maple/H96715000003006-00-500x500.jpg",
+          "https://media.musiciansfriend.com/is/image/MMGS7/USA-John-Entwistle-Hybrid-Bass-Transbrazilia/L49835000001000-00-1600x1600.jpg",
         price: 2999,
       },
       {
         id: 17,
-        name: "Fender Special Edition Deluxe PJ Bass",
+        name: "Fender Player Jazz Bass Tidepool",
         imageUrl:
-          "http://media.guitarcenter.com/is/image/MMGS7/Special-Edition-Deluxe-PJ-Bass-Olympic-White/H96715000004000-00-500x500.jpg",
-        price: 899,
+          "https://media.guitarcenter.com/is/image/MMGS7/Player-Jazz-Bass-Maple-Fingerboard-Tidepool/L22046000002000-00-500x500.jpg",
+        price: 699,
       },
     ],
   },
@@ -259,7 +259,7 @@ const SHOP_DATA = {
         id: 33,
         name: "Blue Bottle Mic Locker Nickel",
         imageUrl:
-          "http://media.guitarcenter.com/is/image/MMGS7/Bottle-Mic-Locker-Nickel/J42747000001000-00-500x500.jpg",
+          "https://andertons-productimages.imgix.net/358666-1571318420247.png?w=1200&h=630&fit=fill&bg=FFFFFF&auto=compress&auto=format",
         price: 5999,
       },
       {
