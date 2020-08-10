@@ -25,7 +25,7 @@ const INITIAL_STATE = {
     {
       title: "recording",
       imageUrl:
-        "http://blog.hughes-and-kettner.com/wp-content/uploads/2015/01/DAW-1-von-1-4.jpg",
+        "https://salstmt.files.wordpress.com/2014/03/recording-studio-e1394853704470.jpg",
       // "https://consordini.com/wp-content/uploads/2018/11/home-recording-studio-setup.jpg",
       size: "large",
       id: 4,

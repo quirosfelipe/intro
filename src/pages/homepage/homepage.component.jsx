@@ -26,14 +26,13 @@ const HomePage = () => (
         <p> Created By </p>
         <a
           href="https://quirosfelipe.github.io/"
-          target="framename"
           className="created-by__name-name"
         >
           Felipe Quiros
         </a>
         <div className=" created-by__link">
-          <a href="https://github.com/quirosfelipe" target="framename">
-            <img class="created-by__image" src={github} alt="github link" />{" "}
+          <a href="https://github.com/quirosfelipe">
+            <img className="created-by__image" src={github} alt="github link" />{" "}
           </a>
         </div>
       </div>
